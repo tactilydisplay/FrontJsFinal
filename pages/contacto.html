@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <title>TACTILYDISPLAY - Venta de Repuestos de Tablets y Celulares.</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="../imagenes/idea logo.png" alt="logo-tactilydisplay" class="header__logo"  href="./index.html" >
+        <p class ="header__home"> 
+            <a href="../index.html"></a>
+        </p>
+        <nav class="header__nav">
+            <ul>
+                <li><a href="../index.html">HOME<a></li>
+                <li><a href="../contacto.html">CONTACTO</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <form class ="formulario" method="post" action="https://formspree.io/f/xwprqkag" autocomplete="on">
+            <p> Contactanos !</p>
+            <input type="hidden" name="_redirect" value="./gracias.html" maxlength="500" minlength="10">
+            <label> Nombre: <input type="text" name="nombre" required></label>
+            <br><br>
+            <label>E-mail:   <input type="email" name="e-mail" required></label>  
+            <br><br>
+            <label> Mensaje: <textarea name="mensaje" required cols="50" rows="10"></textarea></label>
+            <input type="hidden" name="_redirect" value="gracias.html" maxlength="500" minlength="10">
+            <br>
+            <br>
+            <button type="submit" class="boton-form"> Enviar </button>
+
+        </form>
+       
+    </main>
+
+    
+</body>
+
+<footer class="footer">
+<p>Sitio Web diseñado por GCI @ 2025</p>
+</footer>
+</html>
