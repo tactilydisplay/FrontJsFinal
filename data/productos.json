@@ -1,0 +1,8 @@
+[
+  { "id": "1", "nombre": "Modulo para Samsung t220", "img": "imagenes/t220.jpeg", "precio": 62000 },
+  { "id": "2", "nombre": "Modulo para Samsung t290", "img": "imagenes/t290.jpeg", "precio": 62000 },
+  { "id": "3", "nombre": "Modulo para Lenovo x505", "img": "imagenes/x505.jpeg", "precio": 59900 },
+  { "id": "4", "nombre": "Modulo para Lenovo 8505", "img": "imagenes/8505.jpeg", "precio": 60000 }
+]
+
+  

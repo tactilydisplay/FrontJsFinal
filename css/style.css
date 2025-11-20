@@ -1,4 +1,4 @@
-{margin: 0.1; 
+* {margin: 0.1; 
 padding: 0;
 box-sizing: border-box;}
 html {font-size: 62.5%;}
@@ -115,6 +115,34 @@ color: black;}
     width: 20rem;
 }
 
+.btn {
+  background-color: #d21f3c;
+  color: #e5e6e8;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #b71c34;
+}
+
+.btn-eliminar-carrito {
+  background-color: #1d1a20;
+  border: 2px solid #d21f3c;
+}
+.btn-vaciar-carrito {
+  background-color: #f7bb2b;
+  color: #1d1a20;
+}
+.btn-vaciar-carrito:hover {
+  background-color: #e0aa24;
+}
 
 /*.tarjeta-producto img{width: 100%;
 border-radius: 0.5;}/*
