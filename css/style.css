@@ -78,7 +78,10 @@ background-color: white;
 border-radius: 3rem;
 border-style: groove;
 border-color: white;
-width: auto;}
+width: auto;
+align-items: center;
+display: flex;
+flex-direction: column;}
 .tarjeta-producto h3{
     text-align: center;
     font-size: 2rem;
@@ -89,13 +92,15 @@ width: auto;}
     font-size: 2rem;
 color: black;}
 .formulario{
-    display:inline-block;
+    display:flex;
+    flex-direction: column;
+    width: 60rem;
     padding: 3.5rem;
-    gap: 20rem;
+    gap: 2rem;
     border-radius: 2rem;
-    border-style: groove;
-    border-color: white;
-    background-color: white;
+    border-style: ;
+    border-color: gray;
+    background-color:gray;
 }
 .formulario p{
     text-align: center;
@@ -113,6 +118,10 @@ color: black;}
     padding-left: 1rem;
     padding-top: 1rem;
     width: 20rem;
+    cursor: pointer;
+}
+.boton-form:hover {
+    background-color: black;
 }
 
 .btn {
@@ -134,7 +143,7 @@ color: black;}
 
 .btn-eliminar-carrito {
   background-color: #1d1a20;
-  border: 2px solid #d21f3c;
+  border: 2px solid;
 }
 .btn-vaciar-carrito {
   background-color: #f7bb2b;
@@ -142,6 +151,15 @@ color: black;}
 }
 .btn-vaciar-carrito:hover {
   background-color: #e0aa24;
+}
+.contenedor-carrito{ display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 2rem;
+width: 100%
+}
+.titulo-carrito{
+align-content: center;
 }
 
 /*.tarjeta-producto img{width: 100%;
